@@ -1,0 +1,30 @@
+{
+  "name": "phr_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "enroll": "node enrollUsers/initServer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "helmet": "^6.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "fabric-ca-client": "^2.2.17",
+    "fabric-network": "^2.2.17",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "joi": "^17.10.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "nodemailer": "^6.9.4",
+    "qrcode": "^1.5.3"
+  }
+}
